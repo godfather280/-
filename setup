@@ -11,7 +11,7 @@ _Pbxbot_zip () {
 }
 
 _starter () {
-    echo "••• Downloading PbxBot [v3] •••"
+    echo "••• Downloading 🕷𝐒𝐩𝐢𝐝𝐞✘𝐛𝐨𝐭🕷 [v3] •••"
     Pbxpath="Plugins.zip"
 
     wget -q $(_Pbxbot_zip) -O "$Pbxpath"
@@ -21,7 +21,7 @@ _starter () {
     cd $PBXPATH
     python3 ../updater.py ../requirements.txt requirements.txt
 
-    echo "••• Starting PbxBot [v3] •••"
+    echo "••• Starting 🕷𝐒𝐩𝐢𝐝𝐞✘𝐛𝐨𝐭🕷 •••"
     chmod 777 start.sh
     ./start.sh
 }
